@@ -1,0 +1,9 @@
+# Portfolio theme
+
+Asset files for [http://portfolio.tlvince.com][1].
+
+With thanks to Twitter Bootstrap and Font Awesome.
+
+Copyright 2012 Tom Vincent <http://tlvince.com/contact/>.
+
+  [1]: http://portfolio.tlvince.com
