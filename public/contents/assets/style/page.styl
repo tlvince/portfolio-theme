@@ -39,16 +39,29 @@ footer
   margin-bottom: 20px
   min-height: 305px
   $box-shadow(1px 1px 1px rgba(0,0,0,.2))
+  text-align: center
 
 #projects .project:hover
   background-color: darken($grayLighter, 4%)
 
 #projects .project img
   max-width: 240px
+  max-height: 158px
   padding: 20px 20px 0
 
-#projects .project p
-  padding: 20px 20px 10px
+#projects .project .title
+  font-weight: bold
+  color: $gray
+  padding: 20px 20px 0
+
+#projects .project .abstract
+  padding: 0 20px 20px
+
+#projects p
+  text-align: left
+
+#project-thumb
+  height: 168px
 
 .screenshot
   border: 1px solid $grayLighter
