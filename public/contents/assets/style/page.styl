@@ -17,27 +17,22 @@ footer
   overflow: hidden
   padding: 0
 
+#projects a
+  color: inherit
+
 #projects .project
-  background-color: #EEE
+  background-color: $grayLighter
   margin-bottom: 20px
   min-height: 305px
-  text-align: center
-
-#projects .project > a
-  color: inherit
-  display: block
-  padding: 20px 20px 10px
-  text-decoration: none
+  $box-shadow(1px 1px 1px rgba(0,0,0,.2))
 
 #projects .project:hover
-  background-color: #E5E5E5
+  background-color: darken($grayLighter, 2%)
 
 #projects .project img
-  display: block
-  margin: 0 auto
   max-width: 240px
+  padding: 20px 20px 0
 
 #projects .project p
-  margin-top: 10px
-  text-align: left
+  padding: 20px 20px 10px
 
