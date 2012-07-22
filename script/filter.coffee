@@ -9,6 +9,12 @@ toggleProjects = ->
       else
         project.classList.add "hide"
 
+rewriteLinks = ->
+  for tag in document.getElementsByClassName "tag"
+    base = /(.*)\.html/.exec(tag.getAttribute "href")[1]
+    tag.setAttribute "href", "#" + base
+
+rewriteLinks()
 if location.hash
   toggleProjects()
 window.addEventListener "hashchange", toggleProjects, false
