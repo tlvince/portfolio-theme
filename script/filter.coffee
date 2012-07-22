@@ -10,7 +10,7 @@ toggleProjects = ->
         project.classList.add "hide"
 
 rewriteLinks = ->
-  for tag in document.getElementsByClassName "tag"
+  for tag in document.getElementsByClassName "tag" when tag isnt "all"
     base = /(.*)\.html/.exec(tag.getAttribute "href")[1]
     tag.setAttribute "href", "#" + base
 
